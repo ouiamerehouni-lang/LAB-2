@@ -304,4 +304,4 @@ def predict(req: PredictRequest) -> dict[str, Any]:
 
 
     log_prediction(out)
-    return outl
+    return out# BAD CHANGE
